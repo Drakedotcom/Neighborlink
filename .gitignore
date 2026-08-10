@@ -1,0 +1,27 @@
+# Generic Dart & Flutter ignores
+
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+android/.gradle/
+android/app/build/
+ios/Flutter/Flutter.framework/
+*.lock
+
+# macOS
+.DS_Store
+
+# Flutter/Dart
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-version
+
+# Generated files
+pubspec.lock

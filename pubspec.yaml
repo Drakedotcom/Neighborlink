@@ -1,0 +1,39 @@
+name: neighborlink
+description: "NeighborLink - Gemeinsam. Lokal. Nachhaltig. A neighbourhood networking app built with Flutter and SQLite."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # --- State management (shared team decision, see docs/ARCHITECTURE.md) ---
+  provider: ^6.1.2
+
+  # --- Persistence: SQLite auf allen drei Zielplattformen ---
+  #   sqflite                 native Bridge auf Android/iOS
+  #   sqflite_common_ffi      FFI auf Windows/Linux/macOS und in Tests
+  #   sqflite_common_ffi_web  WebAssembly + IndexedDB im Browser
+  #   Die Auswahl trifft lib/data/database/platform/database_platform.dart
+  sqflite: ^2.4.1
+  sqflite_common_ffi: ^2.3.4
+  sqflite_common_ffi_web: ^1.1.2
+  path: ^1.9.0
+
+  # --- Security: PBKDF2 password hashing (never store plain text) ---
+  crypto: ^3.0.6
+
+  # --- Localised date & time formatting ---
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
