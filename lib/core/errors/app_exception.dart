@@ -1,4 +1,5 @@
-/// Base class errors
+///base class errors
+///Lus
 sealed class AppException implements Exception {
   const AppException(this.message, {this.cause});
    ///original error for log
