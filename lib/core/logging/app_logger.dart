@@ -31,7 +31,7 @@ class LogRecord {
   }
 }
 
-/// loggin facade LuS. Records printed to debugger and stored for profile display
+/// logging facade LuS. Records printed to debugger and stored for profile display
 class AppLogger {
   AppLogger._();
   static final AppLogger instance = AppLogger._();
