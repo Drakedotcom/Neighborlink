@@ -9,7 +9,6 @@ import 'schema/community_schema.dart';
 import 'schema/core_schema.dart';
 import 'schema/sharing_schema.dart';
 
-
 ///LuS
 ///single database connection for app
 class AppDatabase {
@@ -23,7 +22,7 @@ class AppDatabase {
 
   sqflite.Database? _database;
 
-  ///must call once from main
+  ///must call once from main.
   static void registerPlatformFactory() {
     platform.configureDatabaseFactory();
     AppLogger.instance.info(
@@ -52,7 +51,11 @@ class AppDatabase {
         onUpgrade: _onUpgrade,
       );
     } catch (error) {
-      AppLogger.instance.error(_logTag, 'Could not open the database.', error);
+      AppLogger.instance.error(
+        _logTag,
+        'Could not open the database.',
+        error,
+      );
       throw DataAccessException(
         'Die Datenbank konnte nicht geöffnet werden.',
         cause: error,
@@ -70,9 +73,9 @@ class AppDatabase {
     AppLogger.instance.info(_logTag, 'Creating schema version $version ...');
 
     final statements = <String>[
-      ...CoreSchema.createStatements, 
-      ...SharingSchema.createStatements, 
-      ...CommunitySchema.createStatements, 
+      ...CoreSchema.createStatements,
+      ...SharingSchema.createStatements,
+      ...CommunitySchema.createStatements,
     ];
 
     await db.transaction((txn) async {
@@ -89,25 +92,30 @@ class AppDatabase {
     await const DemoDataSeeder().seed(db);
   }
 
-  /// Migration hook. Version 1 is the initial release, so there is nothing to
-  /// migrate yet — the method documents the intended upgrade strategy.
-  Future<void> _onUpgrade(sqflite.Database db, int oldVersion, int newVersion) async {
+  ///theoretical migration
+  Future<void> _onUpgrade(
+      sqflite.Database db,
+      int oldVersion,
+      int newVersion,
+      ) async {
     AppLogger.instance.warning(
       _logTag,
       'Upgrade requested from v$oldVersion to v$newVersion — '
-      'no migration steps are registered yet.',
+          'no migration steps are registered yet.',
     );
   }
 
-  /// Deletes the database file. Used by the "Demo zurücksetzen" button so the
-  /// presentation can be restarted from a clean state.
+  ///delete db
   Future<void> resetDatabase() async {
     try {
       final path = await platform.resolveDatabasePath(_databaseFileName);
       await _database?.close();
       _database = null;
       await sqflite.deleteDatabase(path);
-      AppLogger.instance.warning(_logTag, 'Database deleted by user request.');
+      AppLogger.instance.warning(
+        _logTag,
+        'Database deleted by user request.',
+      );
     } catch (error) {
       throw DataAccessException(
         'Die Datenbank konnte nicht zurückgesetzt werden.',
@@ -116,13 +124,12 @@ class AppDatabase {
     }
   }
 
-  /// Closes the connection (called on app shutdown / in tests).
   Future<void> close() async {
     await _database?.close();
     _database = null;
   }
 
-  /// Test seam: lets unit tests inject an in-memory database.
+  ///in-memory db option
   @visibleForTesting
   Future<void> useInMemoryDatabaseForTests() async {
     platform.configureTestDatabaseFactory();
