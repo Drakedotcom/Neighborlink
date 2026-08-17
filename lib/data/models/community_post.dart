@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../ui/theme/app_colors.dart';
 
+///NiS
 /// The seven categories of the community feed, exactly as defined in the
 /// project brief. [storageValue] is what ends up in the `category` column.
 enum PostCategory {
