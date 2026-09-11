@@ -4,8 +4,10 @@
 class InputValidators {
   const InputValidators._();
 
+  ///unicode-aware so umlauts and ß are accepted
   static final RegExp _emailPattern = RegExp(
-    r'^[\w.+-]+@[\w-]+\.[\w.-]{2,}$',
+    r'^[\p{L}\p{N}_.+-]+@[\p{L}\p{N}_-]+\.[\p{L}\p{N}_.-]{2,}$',
+    unicode: true,
   );
   static final RegExp _postalCodePattern = RegExp(r'^\d{5}$');
   ///requires non empty
