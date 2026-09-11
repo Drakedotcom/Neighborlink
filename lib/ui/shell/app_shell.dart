@@ -17,6 +17,7 @@ import '../screens/events/events_screen.dart';
 import '../screens/feed/community_feed_screen.dart';
 import '../screens/food/food_sharing_screen.dart';
 import '../screens/furniture/furniture_screen.dart';
+import '../screens/map/map_screen.dart';
 import '../screens/neighborhood/neighborhood_screen.dart';
 import '../screens/notifications/notifications_screen.dart';
 import '../screens/profile/profile_screen.dart';
@@ -141,6 +142,13 @@ class AppShellState extends State<AppShell> {
               label: Text(neighborhood.displayName),
             ),
           ),
+        IconButton(
+          tooltip: 'Karte',
+          onPressed: () => Navigator.of(context).push(
+            MaterialPageRoute<void>(builder: (_) => const MapScreen()),
+          ),
+          icon: const Icon(Icons.map_outlined),
+        ),
         IconButton(
           tooltip: 'Benachrichtigungen',
           onPressed: () => navigateTo(AppDestination.notifications),
