@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 
 import '../../ui/widgets/status_badge.dart';
 
-/// Furniture offer process: verfügbar -> reserviert -> vergeben.
+/// LuL Furniture offer process: verfügbar -> reserviert -> vergeben.
 enum FurnitureStatus {
   available('available', 'Verfügbar', StatusTone.available),
   reserved('reserved', 'Reserviert', StatusTone.reserved),
@@ -39,7 +39,7 @@ enum FurnitureRequestStatus {
       );
 }
 
-/// LuL An item somebody wants to give away.
+/// An item somebody wants to give away.
 @immutable
 class FurnitureOffer {
   const FurnitureOffer({
