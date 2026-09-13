@@ -13,7 +13,7 @@ import '../../widgets/empty_state.dart';
 import '../../widgets/form_scaffold.dart';
 import '../../widgets/stat_tile.dart';
 
-///NiS
+///NiS AI generated code, reviewed
 /// "Events" — create neighbourhood events and manage participation.
 class EventsScreen extends StatefulWidget {
   const EventsScreen({super.key});

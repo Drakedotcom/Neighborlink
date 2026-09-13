@@ -9,7 +9,7 @@ import '../data/repositories/notification_repository.dart';
 import '../data/repositories/ride_repository.dart';
 import 'auth_controller.dart' show ViewState;
 
-///NiS
+///NiS AI generated code, reviewed
 /// State of the ride sharing screen.
 class RideController extends ChangeNotifier {
   RideController({

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../theme/app_colors.dart';
 import '../theme/app_theme.dart';
 
-///NiS
+///NiS AI generated code, reviewed
 /// Key figure card used in the dashboard header row.
 class StatTile extends StatelessWidget {
   const StatTile({

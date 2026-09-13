@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// The NeighborLink colour palette (green, natural, calm).
+/// The NeighborLink colour palette (green, natural, calm). AI generated code, reviewed
 class AppColors {
   const AppColors._();
 

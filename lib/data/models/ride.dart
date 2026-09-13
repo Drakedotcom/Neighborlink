@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 
-///NiS
+///NiS AI generated code, reviewed
 /// A car-pooling offer created by a neighbour.
 ///
 /// Free seats are **not** stored in the table. They are derived from

@@ -9,7 +9,7 @@ import '../data/repositories/event_repository.dart';
 import '../data/repositories/notification_repository.dart';
 import 'auth_controller.dart' show ViewState;
 
-///NiS
+///NiS AI generated code, reviewed
 /// State of the events screen.
 class EventController extends ChangeNotifier {
   EventController({

@@ -4,7 +4,7 @@ import '../database/schema/core_schema.dart';
 import '../models/ride.dart';
 import 'base_repository.dart';
 
-///NiS
+///NiS AI generated code, reviewed
 /// Data access for car pooling.
 class RideRepository extends BaseRepository {
   const RideRepository();

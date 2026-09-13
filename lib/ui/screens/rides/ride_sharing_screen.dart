@@ -12,7 +12,7 @@ import '../../theme/app_theme.dart';
 import '../../widgets/empty_state.dart';
 import '../../widgets/form_scaffold.dart';
 
-///NiS
+///NiS AI generated code, reviewed
 /// "Fahrgemeinschaften" — create rides, join them, withdraw again.
 class RideSharingScreen extends StatefulWidget {
   const RideSharingScreen({super.key});

@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 
 import '../../core/utils/date_formatter.dart';
 
-///NiS
+///NiS AI generated code, reviewed
 /// A neighbourhood event that everybody can join.
 @immutable
 class NeighborhoodEvent {

@@ -19,7 +19,7 @@ import '../../theme/app_theme.dart';
 import '../../widgets/empty_state.dart';
 import '../../widgets/stat_tile.dart';
 
-///NiS
+///NiS AI generated code, reviewed
 /// Overview screen with the key figures of the neighbourhood.
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key, required this.onNavigate});

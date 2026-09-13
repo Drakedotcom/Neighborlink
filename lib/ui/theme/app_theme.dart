@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'app_colors.dart';
 
-/// Builds the global Material 3 theme of the application.
+/// Builds the global Material 3 theme of the application. NiS AI generated code, reviewed
 class AppTheme {
   const AppTheme._();
 

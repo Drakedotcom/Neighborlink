@@ -27,7 +27,7 @@ import '../theme/app_theme.dart';
 import '../widgets/stat_tile.dart';
 import 'app_destinations.dart';
 
-///NiS
+///NiS AI generated code, reviewed
 /// Width from which the sidebar is displayed permanently.
 const double _sidebarBreakpoint = 1000;
 
