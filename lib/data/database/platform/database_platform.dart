@@ -1,2 +1,2 @@
-///one common entry point
+///LuS one common entry point
 export 'database_platform_io.dart';
