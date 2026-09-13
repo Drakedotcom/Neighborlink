@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 
 import '../../ui/widgets/status_badge.dart';
 
-/// Status of care request.
+/// LuL AI generated code, reviewed - Status of care request.
 enum CareStatus {
   open('open', 'Offen', StatusTone.available),
   covered('covered', 'Übernommen', StatusTone.closed);
@@ -19,7 +19,7 @@ enum CareStatus {
   );
 }
 
-/// LuL Help offer of neighbour.
+/// Help offer of neighbour.
 @immutable
 class CareOffer {
   const CareOffer({
@@ -48,7 +48,7 @@ class CareOffer {
   );
 }
 
-/// LuL request for child care.
+/// request for child care.
 @immutable
 class ChildcareRequest {
   const ChildcareRequest({

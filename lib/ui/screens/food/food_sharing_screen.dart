@@ -13,7 +13,7 @@ import '../../widgets/empty_state.dart';
 import '../../widgets/form_scaffold.dart';
 import '../../widgets/status_badge.dart';
 
-/// LuL Offer food, show interest, reserve, confirm pickup.
+/// LuL AI generated code, reviewed - Offer food, show interest, reserve, confirm pickup.
 class FoodSharingScreen extends StatefulWidget {
   const FoodSharingScreen({super.key});
 
@@ -184,7 +184,7 @@ class _FoodSharingScreenState extends State<FoodSharingScreen> {
   }
 }
 
-/// LuL Card representing one food offer with all its available actions.
+/// Card representing one food offer with all its available actions.
 class _FoodOfferCard extends StatelessWidget {
   const _FoodOfferCard({
     required this.offer,

@@ -14,7 +14,7 @@ import '../../widgets/form_scaffold.dart';
 import '../../widgets/status_badge.dart';
 import 'care_widgets.dart';
 
-/// LuL Organise pet sitting inside the neighbourhood.
+/// LuL AI generated code, reviewed - Organise pet sitting inside the neighbourhood.
 class PetcareScreen extends StatefulWidget {
   const PetcareScreen({super.key});
 
@@ -420,7 +420,7 @@ class _PetcareCardState extends State<_PetcareCard> {
   }
 }
 
-/// LuL Dialog to create a pet care request.
+/// Dialog to create a pet care request.
 class _CreatePetcareDialog extends StatefulWidget {
   const _CreatePetcareDialog();
 

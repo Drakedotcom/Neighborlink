@@ -9,7 +9,7 @@ import '../data/repositories/furniture_repository.dart';
 import '../data/repositories/notification_repository.dart';
 import 'auth_controller.dart' show ViewState;
 
-/// State of the furniture giveaway screen.
+/// LuL AI generated code, reviewed - State of the furniture giveaway screen.
 class FurnitureController extends ChangeNotifier {
   FurnitureController({
     FurnitureRepository repository = const FurnitureRepository(),

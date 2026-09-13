@@ -4,7 +4,7 @@ import '../database/schema/sharing_schema.dart';
 import '../models/furniture_offer.dart';
 import 'base_repository.dart';
 
-/// LuL Data access for the gifting furniture module.
+/// LuL AI generated code, reviewed - Data access for the gifting furniture module.
 class FurnitureRepository extends BaseRepository {
   const FurnitureRepository();
 

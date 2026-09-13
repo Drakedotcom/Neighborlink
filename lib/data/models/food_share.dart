@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 
 import '../../ui/widgets/status_badge.dart';
 
-/// Food offer process: verfügbar -> reserviert -> abgeholt.
+/// LuL Food offer process: verfügbar -> reserviert -> abgeholt.
 enum FoodShareStatus {
   available('available', 'Verfügbar', StatusTone.available),
   reserved('reserved', 'Reserviert', StatusTone.reserved),

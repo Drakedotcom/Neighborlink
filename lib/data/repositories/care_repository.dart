@@ -4,7 +4,7 @@ import '../database/schema/core_schema.dart';
 import '../models/care_request.dart';
 import 'base_repository.dart';
 
-/// Shared behaviour of the care modules.
+/// LuL Shared behaviour of the care modules.
 abstract class CareRepositoryBase extends BaseRepository {
   const CareRepositoryBase();
 

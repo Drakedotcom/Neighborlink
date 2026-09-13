@@ -9,7 +9,7 @@ import '../data/repositories/care_repository.dart';
 import '../data/repositories/notification_repository.dart';
 import 'auth_controller.dart' show ViewState;
 
-/// LuL State of the child care and pet care screens.
+/// LuL AI generated code, reviewed - State of the child care and pet care screens.
 class CareController extends ChangeNotifier {
   CareController({
     ChildcareRepository childcareRepository = const ChildcareRepository(),

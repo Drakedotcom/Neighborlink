@@ -4,7 +4,7 @@ import '../database/schema/sharing_schema.dart';
 import '../models/food_share.dart';
 import 'base_repository.dart';
 
-/// Data access for the food sharing module.
+/// LuL AI generated code, reviewed - Data access for the food sharing module.
 ///
 /// All status transitions are implemented as conditional UPDATE statements.
 /// If the row no longer has the expected status (because another neighbour

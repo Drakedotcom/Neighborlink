@@ -13,7 +13,7 @@ import '../../widgets/form_scaffold.dart';
 import '../../widgets/stat_tile.dart';
 import '../../widgets/status_badge.dart';
 
-/// LuL Publish items, collect requests, hand them over.
+/// LuL AI generated code, reviewed - Publish items, collect requests, hand them over.
 class FurnitureScreen extends StatefulWidget {
   const FurnitureScreen({super.key});
 
@@ -599,7 +599,7 @@ class _InfoPill extends StatelessWidget {
   }
 }
 
-/// LuL Dialog to publish a new furniture offer.
+/// Dialog to publish a new furniture offer.
 class _CreateFurnitureDialog extends StatefulWidget {
   const _CreateFurnitureDialog();
 

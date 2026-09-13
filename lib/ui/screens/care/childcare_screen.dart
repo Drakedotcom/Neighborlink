@@ -14,7 +14,7 @@ import '../../widgets/form_scaffold.dart';
 import '../../widgets/status_badge.dart';
 import 'care_widgets.dart';
 
-/// LuL Request support and offer help to neighbours.
+/// LuL AI generated code, reviewed - Request support and offer help to neighbours.
 class ChildcareScreen extends StatefulWidget {
   const ChildcareScreen({super.key});
 
@@ -402,7 +402,7 @@ class _ChildcareCardState extends State<_ChildcareCard> {
   }
 }
 
-/// LuL Dialog to create a child care request.
+/// Dialog to create a child care request.
 class _CreateChildcareDialog extends StatefulWidget {
   const _CreateChildcareDialog();
 

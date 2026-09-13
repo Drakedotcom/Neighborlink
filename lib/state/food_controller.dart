@@ -9,7 +9,7 @@ import '../data/repositories/food_share_repository.dart';
 import '../data/repositories/notification_repository.dart';
 import 'auth_controller.dart' show ViewState;
 
-/// State of the food sharing screen.
+/// LuL AI generated code, reviewed - State of the food sharing screen.
 class FoodController extends ChangeNotifier {
   FoodController({
     FoodShareRepository repository = const FoodShareRepository(),

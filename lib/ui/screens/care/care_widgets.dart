@@ -6,7 +6,7 @@ import '../../theme/app_colors.dart';
 import '../../theme/app_theme.dart';
 import '../../widgets/stat_tile.dart';
 
-/// LuL Small labelled pill used inside the care cards.
+/// LuL AI generated code, reviewed - Small labelled pill used inside the care cards.
 class CarePill extends StatelessWidget {
   const CarePill({
     super.key,
@@ -47,7 +47,7 @@ class CarePill extends StatelessWidget {
   }
 }
 
-/// LuL Expandable list of the neighbours who offered to help.
+/// Expandable list of the neighbours who offered to help.
 class CareOfferList extends StatelessWidget {
   const CareOfferList({
     super.key,
