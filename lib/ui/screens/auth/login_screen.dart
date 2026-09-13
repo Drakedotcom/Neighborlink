@@ -9,7 +9,7 @@ import '../../theme/app_theme.dart';
 import '../../widgets/form_scaffold.dart';
 import 'register_screen.dart';
 
-///LuS
+///LuS AI generated, reviewed
 ///entry point when no session exists
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

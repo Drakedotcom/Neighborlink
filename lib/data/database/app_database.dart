@@ -9,7 +9,7 @@ import 'schema/community_schema.dart';
 import 'schema/core_schema.dart';
 import 'schema/sharing_schema.dart';
 
-///LuS
+///LuS AI generated, reviewed
 ///single database connection for app
 class AppDatabase {
   AppDatabase._();

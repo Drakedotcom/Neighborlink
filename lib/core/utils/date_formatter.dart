@@ -2,7 +2,7 @@ import 'package:intl/intl.dart';
 
 ///formats dates and timestamps
 ///in db stored as yyyy-MM-dd
-///LuS
+///LuS AI generated, reviewed
 class DateFormatter {
   const DateFormatter._();
 

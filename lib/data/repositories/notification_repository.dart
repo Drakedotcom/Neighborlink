@@ -4,7 +4,7 @@ import '../database/schema/core_schema.dart';
 import '../models/app_notification.dart';
 import 'base_repository.dart';
 
-///LuS
+///LuS AI generated, reviewed
 class NotificationRepository extends BaseRepository {
   const NotificationRepository();
 

@@ -1,4 +1,4 @@
-///LuS
+///LuS AI generated, reviewed
 import '../../core/errors/app_exception.dart';
 import '../../core/logging/app_logger.dart';
 import '../../core/security/password_hasher.dart';

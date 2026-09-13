@@ -11,7 +11,7 @@ import '../../widgets/empty_state.dart';
 import '../../widgets/form_scaffold.dart';
 import '../../widgets/stat_tile.dart';
 
-///LuS
+///LuS AI generated, reviewed
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
 

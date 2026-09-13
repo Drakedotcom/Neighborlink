@@ -1,10 +1,4 @@
-// -----------------------------------------------------------------------------
-//  NeighborLink · Application State
-//  Owner    : Lukas Brandt   (Developer A — Core, Data & Identity)
-//  Reviewer : Marie Hoffmann
-//  File     : lib/state/notification_controller.dart
-// -----------------------------------------------------------------------------
-
+///LuS AI generated, reviewed
 import 'package:flutter/foundation.dart';
 
 import '../core/errors/app_exception.dart';

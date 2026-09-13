@@ -4,6 +4,7 @@ import '../models/app_user.dart';
 import '../models/neighborhood.dart';
 import 'base_repository.dart';
 
+///LuS AI generated, reviewed
 ///neighborhodd is created when user
 ///registers it for the first time
 class NeighborhoodRepository extends BaseRepository {

@@ -7,7 +7,7 @@ import '../data/models/neighborhood.dart';
 import '../data/repositories/neighborhood_repository.dart';
 import 'auth_controller.dart' show ViewState;
 
-///LuS
+///LuS AI generated, reviewed
 class NeighborhoodController extends ChangeNotifier {
   NeighborhoodController({
     NeighborhoodRepository repository = const NeighborhoodRepository(),

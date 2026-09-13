@@ -9,7 +9,7 @@ import '../../theme/app_colors.dart';
 import '../../theme/app_theme.dart';
 import '../../widgets/empty_state.dart';
 
-///LuS
+///LuS AI generated, reviewed
 class NotificationsScreen extends StatefulWidget {
   const NotificationsScreen({super.key});
 

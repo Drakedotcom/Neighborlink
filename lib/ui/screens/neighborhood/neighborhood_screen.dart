@@ -10,7 +10,7 @@ import '../../theme/app_theme.dart';
 import '../../widgets/empty_state.dart';
 import '../../widgets/stat_tile.dart';
 
-///LuS
+///LuS AI generated, reviewed
 class NeighborhoodScreen extends StatefulWidget {
   const NeighborhoodScreen({super.key});
 

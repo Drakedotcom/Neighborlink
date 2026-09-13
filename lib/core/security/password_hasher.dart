@@ -4,7 +4,7 @@ import 'dart:typed_data';
 
 import 'package:crypto/crypto.dart';
 
-///LuS
+///LuS AI generated, reviewed
 class HashedPassword {
   const HashedPassword({required this.hash, required this.salt});
   ///base64
